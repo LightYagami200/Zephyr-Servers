@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url('../img/header-bg.png') top center no-repeat;
+  background-size: contain;
+}
+
+/* Header */
+.hero {
+  margin-top: 128px;
+}
+
+/* Features */
+.features-area {
+  margin-top: 128px;
+}
+
+.features-area li {
+  margin-top: 16px;
+}
+
+/* Business Features */
+.business-features i {
+  font-size: 48px;
+  color: #2196f3;
+  margin-bottom: 16px;
+}
+
+.business-features h5 {
+  margin-bottom: 16px;
+}
+
+.business-features-area {
+  margin-top: 128px;
+}
+
+/* Data Centers */
+.data-centers {
+  background: linear-gradient(rgba(6, 2, 41, 0.88), rgba(6, 2, 41, 0.88)),
+    url('../img/header-bg.png') top center no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin-top: 96px;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.data-centers-tables {
+  margin-top: 96px;
+}
+
+.data-centers table {
+  color: #fff;
+}

@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url('../img/header-bg.png') top center no-repeat;
+  background-size: cover;
+}
+
+.login {
+  margin-top: 64px;
+}
+
+.login img {
+  height: 64px;
+}
+
+.login-area {
+  margin-top: 32px;
+}
+
+.login-area form {
+  margin-top: 40px;
+}
+
+form input {
+  margin-bottom: 16px;
+}
+
+.card p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  color: #666;
+  font-size: 14px;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 24px;
+}
+
+.have-account {
+  margin-top: 16px;
+}

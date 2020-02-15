@@ -1,0 +1,126 @@
+/* Global Styles */
+* {
+  font-family: 'Ubuntu';
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-weight: bold;
+}
+
+h1,
+h4 {
+  color: #3a3a3a;
+}
+
+li {
+  list-style: none;
+}
+
+li img {
+  height: 32px;
+}
+
+section {
+  margin-top: 192px;
+}
+
+.text-primary {
+  margin-right: 16px;
+}
+
+footer {
+  background: #010e28;
+  padding-top: 96px;
+  padding-bottom: 32px;
+}
+
+footer a {
+  color: #fff;
+  opacity: 0.6;
+}
+
+footer a:hover {
+  color: #fff;
+  opacity: 0.87;
+  text-decoration: none;
+}
+
+footer .logo-area {
+  margin-top: 64px;
+}
+
+footer .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+footer h5,
+footer h3,
+footer p {
+  color: #fff;
+}
+
+/* Component Overrides  */
+.btn,
+.btn:visited {
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.6) !important;
+}
+
+a i {
+  vertical-align: bottom;
+}
+
+.card {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1) !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.shadow-sm:focus {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.social-login-btn {
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #666;
+  font-size: 14px;
+  max-width: 192px;
+}
+
+.social-login-btn:hover {
+  color: #666;
+  text-decoration: none;
+  background-color: #ddd;
+}
+
+.social-login-btn img {
+  height: 32px !important;
+  margin-right: 8px;
+}

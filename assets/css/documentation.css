@@ -1,0 +1,17 @@
+.section-title {
+  margin-bottom: 64px;
+}
+
+a,
+a:hover {
+  color: #3a3a3a;
+  text-decoration: none;
+}
+
+i.text-primary {
+  font-size: 40px;
+}
+
+.documentation {
+  margin-bottom: 192px;
+}
